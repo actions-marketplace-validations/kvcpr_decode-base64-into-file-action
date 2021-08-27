@@ -1,5 +1,5 @@
-name: 'Decode base64 into a file.'
-description: 'Decode base64 value and save it into file.'
+name: 'Append decoded base64 to file'
+description: 'Decode base64 value and append it into file.'
 inputs:
   encoded-value:
     description: 'Base64 encoded value'
