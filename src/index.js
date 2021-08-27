@@ -12,7 +12,7 @@ function main() {
     }
 
     const buff = new Buffer.from(encodedValue, 'base64');
-    fs.writeFileSync(destinationFile, buff);
+    fs.appendFileSync(destinationFile, buff);
 }
 
 main();
